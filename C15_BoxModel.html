@@ -9,22 +9,24 @@
 		body { font-size: 12pt; line-height: 1.5em; color: gray; }
 		h1, h2, h3, h4, h5, h6 { font-size:1.2em; }
 
+		/* 박스를 만들 때 */
 		.bottom { width: 500px; height: 70px; overflow: auto;}
+		
 		.two { width: 500px; height: 70px; overflow: auto; 
 			/* left, right, top, bottom */
 			border-bottom-width: 2px;
-			border-bottom-style: dotted;	/* solid dashed dotted groove inset outset  */
+			border-bottom-style: dotted;	/* solid dashed dotted groove inset outset */
 			border-bottom-color: orange;
 		}
 
 		.three {
 			width: 500px; height: 100px; overflow: auto; 
-			border-bottom: 1px solid orange;		/* bottom 속성만 하나로 통합 기술 */
+			border-bottom: 1px solid orange; /* bottom 속성만 하나로 통합 기술 */
 		}
 
 		.four {
 			width: 500px; height: 100px; overflow: auto; 
-			border: 10px groove orange;				/* left, right, top, bottom 통합 기술 */
+			border: 10px groove orange;	/* left, right, top, bottom 통합 기술 */
 			box-shadow: 5px 5px 10px 5px gray;
 			margin-bottom: 50px;
 		}

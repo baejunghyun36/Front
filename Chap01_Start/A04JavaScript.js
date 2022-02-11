@@ -11,7 +11,7 @@ console.log('() 안의 값을 브라우저의 console 탭에 출력해 준다');
 
 var x = 10;
 console.log(x);
-console.log('');        // 줄바꿈
+console.log(''); // 줄바꿈
 
 console.warn('경고 메시지가 필요한 경우');
 console.error('에러 메시지가 필요한 경우');

@@ -1,5 +1,8 @@
 
 console.log('---------------- Object -----------------');
+// var 로 선언된 변수는 window(golbal) 영역을 오염시킨다. 
+// let, const => TDZ에 선언되므로 window(global) 영역을 오염시키지 않는다. 
+
 
 const obj = {
     name: 'NolBu',

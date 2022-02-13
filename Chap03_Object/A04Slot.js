@@ -11,7 +11,7 @@ var obj = {
         console.log(`${this.firstName} / ${this.lastName}`)
     },
 
-    // 접근자 프로퍼티 => 정의는 함수 형태로 하고 사용은 프로퍼티 형태로 한다.
+    // 접근자 프로퍼티 => 정의는  함수 형태로 하고 사용은 프로퍼티 형태로 한다.
     get fName() {
         return this.firstName;
     },

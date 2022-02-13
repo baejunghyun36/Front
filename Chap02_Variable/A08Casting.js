@@ -44,7 +44,7 @@ console.log("result: " + result + ', typeof(변수명): ' + typeof(result));
 
 // 문자열과 + 이외의 연산은 연결이 아닌 Number로 연산됨
 result = 10 - '2';
-console.log("result: " + result + ', typeof(변수명): ' + typeof(result));
+console.log("result: " + result + ', typeof(변수명): ' + typeof(result)); 
 
 result = 10 * '2';
 console.log("result: " + result + ', typeof(변수명): ' + typeof(result));

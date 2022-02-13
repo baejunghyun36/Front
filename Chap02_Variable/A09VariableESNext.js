@@ -15,7 +15,6 @@ console.log(window);
 // alert = '100';
 // window.alert('Hello World');
 console.log(window.A);
-
 console.log('');
 
 
